@@ -1,0 +1,7 @@
+# Makefile for lab1, YOUR NAME(S) HERE, CS32, F19
+
+CXX=clang++
+# CXX=g++
+
+helloWorld: helloWorld.o
+        ${CXX} helloWorld.o -o helloWorld
